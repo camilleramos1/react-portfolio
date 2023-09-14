@@ -1,0 +1,23 @@
+:root {
+    --light: #fff6f3; 
+    --main: #b27c66;
+    --dark: #5b4b3c;
+}
+
+.logoPic {
+    max-width: 150px;
+}
+
+.my-nav {
+    background-color: white;
+    color: var(--dark);
+    /* box-shadow: 1px 2px 10px var(--main); */
+}
+
+.small-screen-text {
+    color: var(--main);
+}
+
+.small-screen-list {
+    color: var(--dark);
+}

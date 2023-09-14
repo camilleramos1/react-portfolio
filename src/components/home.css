@@ -1,0 +1,31 @@
+:root {
+    --white: #faf9f6; 
+    --light: #E2D5C9;
+    --main: #b27c66;
+    --main-shadow: #956a59;
+    --dark: #5b4b3c;
+}
+
+.wholeHome {
+    background-color: var(--white);
+}
+
+.homeTitle {
+    color: var(--main);
+}
+
+.homeSub {
+    color: var(--main-shadow);
+    font-weight: 500;
+}
+
+.portBtn {
+    color: var(--dark);
+    font-weight: 500;
+    background-image: linear-gradient(to right, var(--light), var(--main));
+    border: solid var(--light) 1px;
+}
+
+.arrow {
+    margin-left: 8px;
+}
