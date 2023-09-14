@@ -6,9 +6,9 @@
     --dark: #5b4b3c;
 }
 
-.wholeHome {
+/* .wholeHome {
     background-color: var(--white);
-}
+} */
 
 .homeTitle {
     color: var(--main);

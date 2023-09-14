@@ -1,0 +1,17 @@
+:root {
+    --white: #faf9f6; 
+    --light: #E2D5C9;
+    --main: #b27c66;
+    --main-shadow: #866153;
+    --dark: #5b4b3c;
+}
+
+.about-me {
+    border-bottom-width: 4px;
+    border-bottom-color: var(--main-shadow);
+    color: var(--main-shadow);
+}
+
+.about-me-all {
+    color: var(--dark);
+}

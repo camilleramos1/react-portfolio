@@ -9,3 +9,17 @@
         font-family: 'Montserrat', sans-serif;
     }
 }
+
+:root {
+    --white: #faf9f6; 
+    --light: #E2D5C9;
+    --main: #b27c66;
+    --main-shadow: #956a59;
+    --dark: #5b4b3c;
+}
+
+.whole-site {
+    height: 100%;
+    background: linear-gradient(white, white, var(--light));
+    /* background-attachment: fixed; */
+}

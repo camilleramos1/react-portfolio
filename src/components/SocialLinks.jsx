@@ -53,14 +53,14 @@ const SocialLinks = () => {
             {links.map(({ id, child, href, style, download }) => (
                 <li key={id} 
                 // eslint-disable-next-line
-                    className={'flex justify-between items-center w-40 h-14 px-4 bg-black ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] cursor-pointer' + " " + style}>
-                <a href={href} 
-                    className='flex justify-between items-center w-full text-white'
-                    download={download}
-                    target='_blank'
-                    rel="noreferrer">
-                    {child}
-                </a>
+                    className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] cursor-pointer sociallink' + " " + style}>
+                    <a href={href} 
+                        className='flex justify-between items-center w-full'
+                        download={download}
+                        target='_blank'
+                        rel="noreferrer">
+                        {child}
+                    </a>
             </li>
             ))}
             

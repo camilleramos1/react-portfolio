@@ -1,0 +1,13 @@
+:root {
+    --white: #faf9f6; 
+    --light: #E2D5C9;
+    --main: #b27c66;
+    --main-shadow: #956a59;
+    --dark: #5b4b3c;
+}
+
+.sociallink {
+    background-color: var(--light);
+    color: var(--dark);
+    font-weight: 600;
+}

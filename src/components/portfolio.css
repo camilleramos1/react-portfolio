@@ -1,0 +1,22 @@
+:root {
+    --white: #faf9f6; 
+    --light: #E2D5C9;
+    --main: #b27c66;
+    --main-shadow: #956a59;
+    --dark: #5b4b3c;
+    --tw-shadow-color: #956a59;
+}
+
+.portfolio-title {
+    border-bottom-width: 4px;
+    border-bottom-color: var(--main-shadow);
+    color: var(--main-shadow);
+}
+
+.portfolio-all {
+    color: var(--dark);
+}
+
+.portfolio-sub {
+    font-weight: 500;
+}
