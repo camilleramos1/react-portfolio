@@ -6,6 +6,10 @@ import { Link } from 'react-scroll';
 import './navbar.css';
 
 export const NavBar = () => {
+
+    // function navbarHandler() {
+    //     this.classList.add('font-bold')
+    // }
     // useState to trigger the bars or x icon
     const [nav, setNav] = useState(false);
 
@@ -55,12 +59,12 @@ export const NavBar = () => {
         {nav && (
         <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen  small-screen-list'>
         {links.map(({ id, link }) => (
-                <li 
-                    key={id}
-                    className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-                       <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
-                </li>
-            ))} 
+            <li  
+                key={id}
+                className='px-4 cursor-pointer capitalize py-6 text-4xl'>
+                    <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
+            </li>
+        ))} 
         </ul>
         )}
     </div>

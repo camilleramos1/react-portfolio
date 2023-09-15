@@ -75,3 +75,8 @@
     border-color: var(--light);
     border-width: 2px;
 }
+
+.required {
+    color: var(--dark);
+    font-weight: 500;
+}

@@ -19,7 +19,8 @@ const Portfolio = () => {
         SuperGreen
         </>
       ),
-      href: 'https://jenevaray.github.io/SuperGreen/',
+      deployed: 'https://jenevaray.github.io/SuperGreen/',
+      code: 'https://github.com/JenevaRay/SuperGreen',
     },
     {
       id: 2,
@@ -29,7 +30,8 @@ const Portfolio = () => {
         J.A.T.E 
         </>
       ),
-      href: 'https://serene-sea-17695-cca51c95e088.herokuapp.com/',
+      deployed: 'https://serene-sea-17695-cca51c95e088.herokuapp.com/',
+      code: 'https://github.com/camilleramos1/text-editor',
     },
     {
       id: 3,
@@ -39,7 +41,8 @@ const Portfolio = () => {
         Medtrack
         </>
       ),
-      href: 'https://limitless-sea-25303-7c8a3f9496d2.herokuapp.com/',
+      deployed: 'https://limitless-sea-25303-7c8a3f9496d2.herokuapp.com/',
+      code: 'https://github.com/Essence1987/medtrack',
     },
     {
       id: 4,
@@ -49,7 +52,8 @@ const Portfolio = () => {
         Social Network API
         </>
       ),
-      href: 'https://drive.google.com/file/d/1NnpBLQxl88B7Qju-gI-EvWKy4tcKmDQ5/view',
+      deployed: 'https://drive.google.com/file/d/1NnpBLQxl88B7Qju-gI-EvWKy4tcKmDQ5/view',
+      code: 'https://github.com/camilleramos1/social-network-api',
     },
     {
       id: 5,
@@ -59,7 +63,8 @@ const Portfolio = () => {
         My Previous Portfolio 
         </>
       ),
-      href: 'https://camilleramos1.github.io/my-portfolio/',
+      deployed: 'https://camilleramos1.github.io/my-portfolio/',
+      code: 'https://github.com/camilleramos1/my-portfolio',
     },
     {
       id: 6,
@@ -69,7 +74,8 @@ const Portfolio = () => {
         E-Commerce Back-end 
         </>
       ),
-      href: 'https://drive.google.com/file/d/1XvO4b8iJRO8SCDfPpmL7UsHxXLKF41sr/view',
+      deployed: 'https://drive.google.com/file/d/1XvO4b8iJRO8SCDfPpmL7UsHxXLKF41sr/view',
+      code: 'https://github.com/camilleramos1/e-commerce-back-end',
     }
   ]
   return (
@@ -82,13 +88,13 @@ const Portfolio = () => {
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
         {
-          portfolios.map(({ id, child, src, href, style }) => (
+          portfolios.map(({ id, child, src, deployed, code }) => (
           <div key={id} className='shadow-md shadow-darkbrownsugar rounded-lg'>
             <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
             <p className={'text-xl items-center justify-center port-title  py-2'}>{child}</p>
             <div className='flex items-center justify-center port-btns' >
-              <a className='w-1/2 px-5 py-2 m-3 duration-200 hover:scale-105 flex items-center demo-link' href={href}>Demo<FaLaptop size={20} className='port-icon'/></a>
-              <a className='w-1/2 px-5 py-2 m-3 duration-200 hover:scale-105 flex items-center demo-link'>Code<FaGithub size={20} className='port-icon'/></a>
+              <a className='w-1/2 px-5 py-2 m-3 duration-200 hover:scale-105 flex items-center demo-link' href={deployed}>Demo<FaLaptop size={20} className='port-icon'/></a>
+              <a className='w-1/2 px-5 py-2 m-3 duration-200 hover:scale-105 flex items-center demo-link' href={code}>Code<FaGithub size={20} className='port-icon'/></a>
             </div>
           </div>
           ))

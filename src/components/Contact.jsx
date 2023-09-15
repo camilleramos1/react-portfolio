@@ -1,7 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './portfolio.css';
 
 const Contact = () => {
+
+    const [inputError, setInputError] = useState()
+    const [nameInput, setInput] = useState()
+    const [emailInput, setEmailInput] = useState()
+    const [emailInputError, setEmailInputError] = useState()
+
+    function handleInputChange(event) {
+        if (event.target.name === 'name') {
+            setInput(event.target.value)
+        } 
+        if (event.target.name === 'email') {
+            setEmailInput(event.target.value)
+        }
+    }
+
+  function inputHandler() {
+    if (!nameInput){
+        setInputError('*This field is required')
+    } else {
+        setInputError('')
+    }
+    if (!emailInput) {
+        setEmailInputError('*This field is required')
+    } else {
+        setEmailInputError('')
+    }
+  }  
+
   return (
     <div name="contact" className='w-full h-screen p-4 '>
         <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
@@ -12,11 +40,13 @@ const Contact = () => {
 
             <div className='flex justify-center items-center'>
                 <form action="https://getform.io/f/7391dd29-5a2f-4903-91ad-a53f19376f0c" method="POST" className='flex flex-col w-full md:w-1/2'> 
-                    <input type="text" name="name" placeholder='Enter your name' 
-                    className='p-2 rounded-md text-darkbrown focus:outline-none'/>
+                    <input type="text" value={nameInput} name="name" placeholder='Enter your name' 
+                    className='p-2 rounded-md text-darkbrown focus:outline-none' onMouseLeave={inputHandler} onChange={handleInputChange}/>
+                    <p className='required'>{inputError}</p>
 
-                    <input type="email" name="email" placeholder='Enter your email' 
+                    <input type="email" value={emailInput} name="email" placeholder='Enter your email' 
                     className='p-2 my-4 rounded-md text-darkbrown focus:outline-none'/>
+                    <p className='required'>{emailInputError}</p>
 
                     <textarea name="message" rows="10" placeholder="Write your message here" className='p-2 border-2 rounded-md text-darkbrown 
                     focus:outline-none'></textarea>
