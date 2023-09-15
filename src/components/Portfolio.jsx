@@ -85,7 +85,7 @@ const Portfolio = () => {
           portfolios.map(({ id, child, src, href, style }) => (
           <div key={id} className='shadow-md shadow-darkbrownsugar rounded-lg'>
             <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
-            <p className={'text-xl items-center justify-center port-title py-2'}>{child}</p>
+            <p className={'text-xl items-center justify-center port-title  py-2'}>{child}</p>
             <div className='flex items-center justify-center port-btns' >
               <a className='w-1/2 px-5 py-2 m-3 duration-200 hover:scale-105 flex items-center demo-link' href={href}>Demo<FaLaptop size={20} className='port-icon'/></a>
               <a className='w-1/2 px-5 py-2 m-3 duration-200 hover:scale-105 flex items-center demo-link'>Code<FaGithub size={20} className='port-icon'/></a>
