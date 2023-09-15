@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import LogoPic from '../assets/portfolio-light.png';
+import { Link } from 'react-scroll';
+
 import './navbar.css';
 
 export const NavBar = () => {
@@ -41,7 +43,7 @@ export const NavBar = () => {
                     key={id}
                     className='px-4 cursor-pointer capitalize font-medium 
                     hover:scale-105 duration-200'>
-                        {link}
+                        <Link to={link} smooth duration={500}>{link}</Link>
                 </li>
             ))} 
         </ul>
@@ -56,7 +58,7 @@ export const NavBar = () => {
                 <li 
                     key={id}
                     className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-                        {link}
+                       <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
                 </li>
             ))} 
         </ul>

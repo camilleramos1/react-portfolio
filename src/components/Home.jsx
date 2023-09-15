@@ -1,6 +1,7 @@
-import React from 'react'
-import MainImage from '../assets/aboutme.png'
-import { HiOutlineArrowRight } from 'react-icons/hi'
+import React from 'react';
+import MainImage from '../assets/aboutme.png';
+import { HiOutlineArrowRight } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 import './home.css'
 
 const Home = () => {
@@ -15,12 +16,12 @@ const Home = () => {
                     Code Enthusiast and Evolving Developer
                 </p>
                 <div>
-                    <button className= 'group w-fit px-6 py-3 my-2 flex items-center rounded-md portBtn cursor-pointer'>
+                    <Link to="portfolio" smooth duration={500} className= 'group w-fit px-6 py-3 my-2 flex items-center rounded-md portBtn cursor-pointer'>
                         Portfolio 
                         <span className='group-hover:rotate-90 duration-300 arrow'>
                           <HiOutlineArrowRight size={20} className=''/>
                         </span>
-                    </button>
+                    </Link>
                 </div>
             </div>
             <div> 

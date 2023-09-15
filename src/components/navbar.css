@@ -21,4 +21,5 @@
 
 .small-screen-list {
     color: var(--dark);
+    background: linear-gradient(white, var(--light));
 }
