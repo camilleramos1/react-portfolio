@@ -7,7 +7,7 @@
     --tw-shadow-color: #956a59;
 }
 
-.portfolio-title, .experience-title {
+.portfolio-title, .experience-title, .contact-title {
     border-bottom-width: 4px;
     border-bottom-color: var(--main-shadow);
     color: var(--main-shadow);
@@ -60,5 +60,16 @@
 }
 
 .resume-skills {
-    padding-top: 9rem;
+    padding-top: 8rem;
+}
+
+.resume-sub {
+    font-weight: 500;
+}
+
+.submit-btn {
+    background-image: linear-gradient(to right, var(--light), var(--main));
+    font-weight: 500;
+    border-color: var(--light);
+    border-width: 2px;
 }
