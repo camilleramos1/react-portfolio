@@ -20,3 +20,28 @@
 .portfolio-sub {
     font-weight: 500;
 }
+
+.port-btns {
+    background-color: var(--white);
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.demo-link {
+    justify-content: space-evenly;
+    color: var(--main-shadow);
+}
+
+.port-icon {
+    color: var(--main-shadow);
+}
+
+.port-title {
+    color: var(--dark);
+    background-color: var(--white);
+    border-bottom-width: 2px;
+    border-bottom-color: var(--light);
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+}
