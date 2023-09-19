@@ -1,5 +1,3 @@
-# react scroll, getform.io, 
-
 # React Portfolio
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
@@ -29,7 +27,8 @@ To use the site, navigate to the deployed application link: Here, the applicatio
 
 ## Screenshot
 Below is a screenshot of the application: 
-![screenshot](screenshot.png)
+![image](https://github.com/camilleramos1/react-portfolio/assets/129894673/75c843fc-cc37-4f41-ae01-8618a7a12cc7)
+
 
 ## Challenges
 Some of the challenges I faced while making this portfolio revolved around tailwind. This was one of my first experiences using primarily tailwind to style. I feel as though I learned a lot through out the journey of building this portfolio, and how to best utilize tailwind.
