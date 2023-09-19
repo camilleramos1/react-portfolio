@@ -1,72 +1,43 @@
 # react scroll, getform.io, 
 
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+## Table of Contents
+* [Description](#description)
+* [Technologies](#technologies)
+* [Usage](#usage)
+* [Screenshot](#screenshot)
+* [Challenges](#challenges)
+* [License](#license)
+* [Questions](#questions)
 
-In the project directory, you can run:
+## Description
+I created this personal portfolio to showcase some of my skills and previous projects to employers. Using React and Tailwind, I built the portfolio containing the following sections: Home, About Me, Portfolio, Resume, and Contact. In the portfolio section, there are 6 of my previous projects displayed with links to both the live site or demo, and the code via GitHub.
 
-### `npm start`
+## Technologies
+Some of the technologies I used to build this application are: 
+* Tailwind
+* React Scroll
+* Getform.io
+* React Icons
+* React Scrollspy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+To use the site, navigate to the deployed application link: Here, the application loads to the home screen on default. Using the links in the nav bar, you are able to quickly navigate to the desired section. You may also scroll down through the site to view the different elements. On the left of the screen, there are social links you may hover through and select from that will navigate you to my social profiles and also download my resume. At the bottom of the page, you are able to submit a contact form if you would like to reach out to me.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshot
+Below is a screenshot of the application: 
+![screenshot](screenshot.png)
 
-### `npm test`
+## Challenges
+Some of the challenges I faced while making this portfolio revolved around tailwind. This was one of my first experiences using primarily tailwind to style. I feel as though I learned a lot through out the journey of building this portfolio, and how to best utilize tailwind.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
+This project is covered under the MIT license. To learn more, please click the license badge at the top of the page.
 
-### `npm run build`
+## Questions
+Have any questions about this project? Get in touch with me!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Github: https://github.com/camilleramos1
