@@ -31,8 +31,8 @@ const Contact = () => {
   }  
 
   return (
-    <div name="contact" className='w-full h-screen p-4 '>
-        <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
+    <div name="contact" className='w-full h-screen p-4 full-contact'>
+        <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full '>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline contact-title'>Contact</p>
                 <p className='py-6 text-darkbrown font-medium'>Submit the form below to get in touch with me</p>

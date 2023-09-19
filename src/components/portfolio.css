@@ -62,7 +62,7 @@
 }
 
 .resume-skills {
-    padding-top: 8rem;
+    margin-top: 9rem;
 }
 
 .resume-sub {
@@ -79,4 +79,10 @@
 .required {
     color: var(--dark);
     font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .full-contact {
+        margin-top: 200px;
+    }
 }

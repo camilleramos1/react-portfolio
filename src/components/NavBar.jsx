@@ -7,11 +7,14 @@ import './navbar.css';
 
 export const NavBar = () => {
 
-    // function navbarHandler() {
-    //     this.classList.add('font-bold')
-    // }
-    // useState to trigger the bars or x icon
+    const [activeLink, setActiveLink] = useState('home');
+     // useState to trigger the bars or x icon
     const [nav, setNav] = useState(false);
+
+    const handleLinkClick = (link) => {
+        setActiveLink(link);
+        setNav(false);
+    };
 
     const links = [
         {
@@ -45,9 +48,11 @@ export const NavBar = () => {
             {links.map(({ id, link }) => (
                 <li 
                     key={id}
-                    className='px-4 cursor-pointer capitalize font-medium 
-                    hover:scale-105 duration-200'>
-                        <Link to={link} smooth duration={500}>{link}</Link>
+                    className={`px-4 cursor-pointer capitalize 
+                    hover:scale-105 duration-200 ${activeLink === link ? 'font-bold' : ''}`}>
+                        <Link onClick={() => handleLinkClick(link)} to={link} smooth duration={500}>
+                            {link}
+                        </Link>
                 </li>
             ))} 
         </ul>
@@ -61,8 +66,8 @@ export const NavBar = () => {
         {links.map(({ id, link }) => (
             <li  
                 key={id}
-                className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-                    <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
+                className={`px-4 cursor-pointer capitalize py-6 text-4xl ${activeLink === link ? 'font-bold' : ''}`}>
+                    <Link onClick={() => handleLinkClick(link)} to={link} smooth duration={500}>{link}</Link>
             </li>
         ))} 
         </ul>

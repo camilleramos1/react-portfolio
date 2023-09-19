@@ -23,3 +23,7 @@
     color: var(--dark);
     background: linear-gradient(white, var(--light));
 }
+
+.active-link {
+    font-weight: 600;
+}

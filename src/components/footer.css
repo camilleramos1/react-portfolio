@@ -1,0 +1,18 @@
+:root {
+    --white: #faf9f6; 
+    --light: #E2D5C9;
+    --main: #b27c66;
+    --main-shadow: #956a59;
+    --dark: #5b4b3c;
+    --tw-shadow-color: #956a59;
+}
+
+.full-footer {
+    background: rgba(178,124,102, 0.5);
+    
+}
+
+.footer-link {
+    justify-content: space-evenly;
+    color: var(--main-shadow);
+}
