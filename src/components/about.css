@@ -15,3 +15,18 @@
 .about-me-all {
     color: var(--dark);
 }
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .about-me-all {
+        margin-top: 200px;
+        padding-bottom: 170px;
+        margin-bottom: 100px;
+    }
+    .about-me-title {
+        padding-bottom: 0.5rem;
+        margin-top: 100px;
+    }
+    .about-me-sub {
+        margin-bottom: 70px;
+    }
+}

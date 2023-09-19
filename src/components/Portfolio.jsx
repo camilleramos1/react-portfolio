@@ -10,7 +10,7 @@ import './portfolio.css'
 
 const Portfolio = () => {
 
-  const portfolios = [
+  const projects = [
     {
       id: 1,
       src: superGreen,
@@ -88,7 +88,7 @@ const Portfolio = () => {
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
         {
-          portfolios.map(({ id, child, src, deployed, code }) => (
+          projects.map(({ id, child, src, deployed, code }) => (
           <div key={id} className='shadow-md shadow-darkbrownsugar rounded-lg'>
             <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
             <p className={'text-xl items-center justify-center port-title  py-2'}>{child}</p>

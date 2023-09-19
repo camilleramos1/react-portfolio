@@ -64,9 +64,9 @@ const Experience = () => {
 
     ]
   return (
-    <div name='resume' className='w-full h-screen '>
+    <div name='resume' className='w-full md:h-screen '>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full resume-skills '>
-            <div className=''>
+            <div className='pt-6'>
                 <p className='text-4xl font-bold p-2 inline experience-title'>Resume & Skills</p>
             </div>
             
