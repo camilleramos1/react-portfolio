@@ -12,7 +12,7 @@
 * [Questions](#questions)
 
 ## Description
-I created this personal portfolio to showcase some of my skills and previous projects to employers. Using React and Tailwind, I built the portfolio containing the following sections: Home, About Me, Portfolio, Resume, and Contact. In the portfolio section, there are 6 of my previous projects displayed with links to both the live site or demo, and the code via GitHub.
+I created this personal portfolio to showcase some of my skills and previous projects to employers. Using React and Tailwind, I built the portfolio containing the following sections: Home, About Me, Portfolio, Resume, and Contact. In the portfolio section, there are 6 of my previous projects displayed with links to both the live site or demo, and the code via GitHub. This application is responsive to smaller devices.
 
 ## Technologies
 Some of the technologies I used to build this application are: 
