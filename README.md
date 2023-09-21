@@ -23,7 +23,9 @@ Some of the technologies I used to build this application are:
 * React Scrollspy
 
 ## Usage
-To use the site, navigate to the deployed application link: Here, the application loads to the home screen on default. Using the links in the nav bar, you are able to quickly navigate to the desired section. You may also scroll down through the site to view the different elements. On the left of the screen, there are social links you may hover through and select from that will navigate you to my social profiles and also download my resume. At the bottom of the page, you are able to submit a contact form if you would like to reach out to me.
+To use the site, navigate to the deployed application link: https://camilleramos1.github.io/react-portfolio/
+
+Here, the application loads to the home screen on default. Using the links in the nav bar, you are able to quickly navigate to the desired section. You may also scroll down through the site to view the different elements. On the left of the screen, there are social links you may hover through and select from that will navigate you to my social profiles and also download my resume. At the bottom of the page, you are able to submit a contact form if you would like to reach out to me.
 
 ## Screenshot
 Below is a screenshot of the application: 
