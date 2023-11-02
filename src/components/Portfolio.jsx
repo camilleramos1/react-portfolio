@@ -1,6 +1,6 @@
 import React from 'react'
 import superGreen from '../assets/portfolio/supergreen-pic.png';
-import jate from '../assets/portfolio/jate.png';
+import magicMania from '../assets/portfolio/magicmania.png';
 import medtrack from '../assets/portfolio/medtrack-pic.png';
 import socialApi from '../assets/portfolio/social-api.png';
 import portfolio from '../assets/portfolio/portfolioscreenshot.png';
@@ -24,14 +24,14 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: jate,
+      src: magicMania,
       child: (
         <>
-        J.A.T.E 
+        MagicMania 
         </>
       ),
-      deployed: 'https://serene-sea-17695-cca51c95e088.herokuapp.com/',
-      code: 'https://github.com/camilleramos1/text-editor',
+      deployed: 'https://maniamagic-2b772cb3f9e0.herokuapp.com/',
+      code: 'https://github.com/mayaj0yce/magicMania',
     },
     {
       id: 3,

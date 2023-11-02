@@ -14,7 +14,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={25}/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/camille-ramos-8b3974297/',
             style: 'rounded-tr-md',
         },
         {
