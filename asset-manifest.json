@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.34484507.css",
-    "main.js": "/react-portfolio/static/js/main.9814380f.js",
+    "main.js": "/react-portfolio/static/js/main.60794a4a.js",
     "static/media/supergreen-pic.png": "/react-portfolio/static/media/supergreen-pic.5e56689a3f06c8bf608b.png",
     "static/media/medtrack-pic.png": "/react-portfolio/static/media/medtrack-pic.178e95b84aff2b70df41.png",
     "static/media/e-commerce.png": "/react-portfolio/static/media/e-commerce.3da1ab1e542480214c1f.png",
@@ -10,8 +10,8 @@
     "static/media/social-api.png": "/react-portfolio/static/media/social-api.123f1f99f172ed041019.png",
     "static/media/portfolioscreenshot.png": "/react-portfolio/static/media/portfolioscreenshot.c9e3c380802e213214a2.png",
     "static/media/portfolio-light.png": "/react-portfolio/static/media/portfolio-light.7d4ed5503614d9a9ce27.png",
+    "static/media/magicmania.png": "/react-portfolio/static/media/magicmania.17618fc97300f4cf53bd.png",
     "static/media/react.png": "/react-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/jate.png": "/react-portfolio/static/media/jate.211a8aaa41a226fe64d7.png",
     "static/media/nextjs.png": "/react-portfolio/static/media/nextjs.48ddc8121a0fcb543d64.png",
     "static/media/github.png": "/react-portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/react-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/react-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react-portfolio/index.html",
     "main.34484507.css.map": "/react-portfolio/static/css/main.34484507.css.map",
-    "main.9814380f.js.map": "/react-portfolio/static/js/main.9814380f.js.map"
+    "main.60794a4a.js.map": "/react-portfolio/static/js/main.60794a4a.js.map"
   },
   "entrypoints": [
     "static/css/main.34484507.css",
-    "static/js/main.9814380f.js"
+    "static/js/main.60794a4a.js"
   ]
 }
