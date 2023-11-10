@@ -70,7 +70,7 @@ const Experience = () => {
                 <p className='text-4xl font-bold p-2 inline experience-title'>Resume & Skills</p>
             </div>
             
-            <a href="/Resume.pdf" download className='px-2 py-2 exp-resume-btn sm:w-1/2 md:w-1/4 lg:w-1/4 mt-5 flex items-center justify-center'>Download Resume <LiaFileDownloadSolid size={25}/></a>
+            <a href="/resume.pdf" download className='px-2 py-2 exp-resume-btn sm:w-1/2 md:w-1/4 lg:w-1/4 mt-5 flex items-center justify-center'>Download Resume <LiaFileDownloadSolid size={25}/></a>
             <p className='py-6 text-darkbrown resume-sub'>Some of the technologies I enjoy working with:</p>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 experience-grid'>
